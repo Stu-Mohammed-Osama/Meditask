@@ -45,7 +45,7 @@ let newTask = {
   flagType:"far fa-flag",
   flagOrder:3,
   dateIconColor:"#cccccc",
-  imgSrc:"Imgs/IMG_2253.jpeg",
+  imgSrc:"Imgs/7373647_3644225.jpg",
   createDate : "",
   dateValue:"",
   seDate:"",
@@ -294,19 +294,19 @@ function addNewTask(){
          newTask.name = newTask.name.replace(/important/i, "");
       }
       if(lowerInput.includes("img1")){
-        newTask.imgSrc = "Imgs/IMG_2251.jpeg";
+        newTask.imgSrc = "Imgs/27996422_7384905.jpg";
         newTask.name = newTask.name.replace(/img1/i, "");
       }
       if(lowerInput.includes("img2")){
-        newTask.imgSrc = "Imgs/IMG_2252.jpeg";
+        newTask.imgSrc = "Imgs/29874943_GST CAM 939-13.jpg";
         newTask.name = newTask.name.replace(/img2/i, "");
       }
       if(lowerInput.includes("img3")){
-        newTask.imgSrc = "Imgs/IMG_2253.jpeg";
+        newTask.imgSrc = "Imgs/7373647_3644225.jpg";
         newTask.name = newTask.name.replace(/img3/i, "");
       }
       if(lowerInput.includes("img4")){
-        newTask.imgSrc = "Imgs/IMG_2254.jpeg";
+        newTask.imgSrc = "Imgs/8134870_3818146.jpg";
         newTask.name = newTask.name.replace(/img4/i, "");
       }
       if(lowerInput.includes("today")){
@@ -329,7 +329,7 @@ function addNewTask(){
           flagType:"far fa-flag",
           flagOrder:3,
           dateIconColor:"#cccccc",
-          imgSrc:"Imgs/IMG_2253.jpeg",
+          imgSrc:"Imgs/7373647_3644225.jpg",
           createDate : "",
           dateValue:"",
           seDate:"",
@@ -356,7 +356,7 @@ function addNewTask(){
           flagType:"far fa-flag",
           flagOrder:3,
           dateIconColor:"#cccccc",
-          imgSrc:"Imgs/IMG_2253.jpeg",
+          imgSrc:"Imgs/7373647_3644225.jpg",
           createDate : "",
           dateValue:"",
           seDate:"",
@@ -485,7 +485,7 @@ function changeImage(i) {
 }
 function changeToImgOne(){
   if(storageOfTasks[specificTask].taskOpacity == "1"){
-    storageOfTasks[specificTask].imgSrc = "Imgs/IMG_2251.jpeg";
+    storageOfTasks[specificTask].imgSrc = "Imgs/27996422_7384905.jpg";
     showTasks();
     localStorage.tasks = JSON.stringify(storageOfTasks);
   }
@@ -493,7 +493,7 @@ function changeToImgOne(){
 
 function changeToImgTwo(){
   if(storageOfTasks[specificTask].taskOpacity == "1"){
-    storageOfTasks[specificTask].imgSrc = "Imgs/IMG_2252.jpeg";
+    storageOfTasks[specificTask].imgSrc = "Imgs/29874943_GST CAM 939-13.jpg";
     showTasks();
     localStorage.tasks = JSON.stringify(storageOfTasks);
   }
@@ -501,7 +501,7 @@ function changeToImgTwo(){
 
 function changeToImgThree(){
   if(storageOfTasks[specificTask].taskOpacity == "1"){
-    storageOfTasks[specificTask].imgSrc = "Imgs/IMG_2253.jpeg";
+    storageOfTasks[specificTask].imgSrc = "Imgs/7373647_3644225.jpg";
     showTasks();
     localStorage.tasks = JSON.stringify(storageOfTasks);
   }
@@ -509,7 +509,7 @@ function changeToImgThree(){
 
 function changeToImgFourth(){
   if(storageOfTasks[specificTask].taskOpacity == "1"){
-    storageOfTasks[specificTask].imgSrc = "Imgs/IMG_2254.jpeg";
+    storageOfTasks[specificTask].imgSrc = "Imgs/8134870_3818146.jpg";
     showTasks();
     localStorage.tasks = JSON.stringify(storageOfTasks);
   }
