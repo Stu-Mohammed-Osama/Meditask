@@ -298,7 +298,7 @@ function addNewTask(){
         newTask.name = newTask.name.replace(/img1/i, "");
       }
       if(lowerInput.includes("img2")){
-        newTask.imgSrc = "Imgs/29874943_GST CAM 939-13.jpg";
+        newTask.imgSrc = "Imgs/29874943_GST.jpg";
         newTask.name = newTask.name.replace(/img2/i, "");
       }
       if(lowerInput.includes("img3")){
