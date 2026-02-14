@@ -1,5 +1,5 @@
 # Meditask
-A lightweight task management web app built with HTML, CSS, and vanilla JavaScript to help users organize and track daily tasks efficiently. It supports creating, editing, completing, and deleting tasks in real time, with Anime.js animations enhancing transitions and user feedback.
+High-performance, vanilla JS web app optimized for clinical task tracking and ward management. Built for hospital staff who need zero-latency updates, the web app allows full CRUD functionality for patient-related tasks. The web app comes with a minimalist CSS design optimized for high legibility in a clinical environment, Anime.js-driven motion effects to provide user feedback during critical shift transitions
 
 🚀 Features
 
@@ -17,7 +17,7 @@ Visualize tasks by date for better planning and time management
 
 Task Categories
 
-Organize tasks into custom categories (e.g., Work, Personal, Study)
+Organize tasks into custom categories 
 
 Easily filter tasks based on selected categories
 
@@ -58,7 +58,5 @@ Clear separation between UI, logic, and animations
 Easy to extend with additional features such as:
 
 Local storage or database persistence
-
-Dark mode / theming
 
 Task priorities or reminders
